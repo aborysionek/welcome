@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_education_and_languages"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:theme="@style/AppTheme.NoActionBar"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pl.sda.android.applicationcv.EducationAndLanguages"
+    tools:showIn="@layout/activity_education_and_languages"
+    android:background="@raw/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textColor="@color/icons"
+        android:textStyle="bold"
+        android:text="@string/education_languages"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/swpslogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@raw/swpslogo"/>
+    <TextView
+        android:id="@+id/swpstitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="@color/icons"
+        android:layout_below="@+id/swpslogo"
+        android:layout_marginTop="-56sp"
+        android:text="@string/psychology_student"/>
+    <ImageView
+        android:id="@+id/englogo"
+        android:layout_width="24sp"
+        android:layout_height="24sp"
+        android:layout_below="@id/swpstitle"
+        android:layout_marginTop="20sp"
+        android:src="@raw/enus" />
+    <ImageView
+        android:layout_width="24sp"
+        android:layout_height="24sp"
+        android:layout_below="@id/swpstitle"
+        android:layout_marginTop="50sp"
+        android:src="@raw/engb" />
+    <ImageView
+        android:id="@+id/ruslogo"
+        android:layout_width="36sp"
+        android:layout_height="36sp"
+        android:layout_below="@id/swpstitle"
+        android:layout_marginTop="80sp"
+        android:layout_marginLeft="-6sp"
+        android:src="@raw/rus2" />
+    <ImageView
+        android:layout_width="36sp"
+        android:layout_height="36sp"
+        android:layout_below="@id/swpstitle"
+        android:layout_marginTop="110sp"
+        android:layout_marginLeft="-6sp"
+        android:src="@raw/ger2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/advanced_level"
+        android:textColor="@color/icons"
+        android:layout_toRightOf="@id/englogo"
+        android:layout_below="@id/englogo"
+        android:textSize="30sp"
+        android:layout_marginLeft="4sp"
+        android:layout_marginTop="-15sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/icons"
+        android:text="@string/beginners_level"
+        android:layout_below="@id/ruslogo"
+        android:layout_toRightOf="@id/englogo"
+        android:textSize="30sp"
+        android:layout_marginLeft="4sp"
+        android:layout_marginTop="-20sp"
+        android:textStyle="italic"/>
+
+</RelativeLayout>

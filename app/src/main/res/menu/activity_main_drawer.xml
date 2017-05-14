@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_experience"
+            android:icon="@drawable/ic_menu_exp"
+            android:title="@string/experience" />
+        <item
+            android:id="@+id/nav_education"
+            android:icon="@drawable/ic_menu_education"
+            android:title="@string/education_languages" />
+        <item
+            android:id="@+id/nav_knowledge"
+            android:icon="@drawable/ic_menu_knowledge"
+            android:title="@string/knowledge" />
+        <item
+            android:id="@+id/nav_hobbies"
+            android:icon="@drawable/ic_menu_hobbies"
+            android:title="@string/hobbies" />
+    </group>
+
+    <item android:title="@string/get_in_contact">
+        <menu>
+            <item
+                android:id="@+id/nav_callme"
+                android:icon="@drawable/ic_menu_callme"
+                android:title="@string/call_me" />
+            <item
+                android:id="@+id/nav_sendsms"
+                android:icon="@drawable/nav_sendsms"
+                android:title="@string/write_sms" />
+            <item
+                android:id="@+id/nav_sendmail"
+                android:icon="@drawable/ic_menu_mail"
+                android:title="@string/send_mail" />
+        </menu>
+    </item>
+
+</menu>

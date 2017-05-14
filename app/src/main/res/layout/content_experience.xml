@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_experience"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@raw/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    app:theme="@style/AppTheme.NoActionBar"
+    tools:context="pl.sda.android.applicationcv.Experience"
+    tools:showIn="@layout/activity_experience">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/experience"
+        android:textColor="@color/icons"
+        android:textSize="26sp" />
+
+    <ImageView
+        android:id="@+id/exp1"
+        android:layout_width="@dimen/maxlogosize"
+        android:layout_height="140sp"
+        android:layout_marginTop="20sp"
+        android:src="@raw/exp1" />
+
+    <ImageView
+        android:id="@+id/exp2"
+        android:layout_width="@dimen/maxlogosize"
+        android:layout_height="180sp"
+        android:layout_marginLeft="@dimen/maxlogosize"
+        android:layout_marginTop="50sp"
+        android:scaleX="0.9"
+        android:scaleY="0.7"
+        android:src="@raw/exp2" />
+
+    <ImageView
+        android:id="@+id/exp3"
+        android:layout_marginTop="150sp"
+        android:layout_width="@dimen/maxlogosize"
+        android:layout_height="120sp"
+        android:src="@raw/exp3" />
+
+    <ImageView
+        android:id="@+id/exp4"
+        android:layout_width="@dimen/maxlogosize"
+        android:layout_height="@dimen/maxlogosize"
+        android:layout_marginLeft="@dimen/maxlogosize"
+        android:layout_marginTop="200sp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:src="@raw/exp4" />
+
+    <ImageView
+        android:id="@+id/exp5"
+        android:layout_width="@dimen/maxlogosize"
+        android:layout_height="120sp"
+        android:layout_marginTop="260sp"
+        android:scaleX="1.0"
+        android:scaleY="0.7"
+        android:src="@raw/exp5" />
+    <ImageView
+        android:id="@+id/exp6"
+        android:layout_width="@dimen/maxlogosize"
+        android:layout_height="@dimen/maxlogosize"
+        android:src="@raw/exp6"
+        android:scaleX="2"
+        android:scaleY="2.0"
+        android:layout_marginTop="380sp"
+        android:layout_marginLeft="80sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/icons"
+        android:text="@string/click_to_check_it_out"
+        android:layout_marginLeft="200sp"
+        android:layout_marginTop="50sp"/>
+
+</RelativeLayout>
